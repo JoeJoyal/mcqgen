@@ -50,7 +50,6 @@ with st.form("user_inputs"):
                             "response_json": json.dumps(RESPONSE_JSON)
                         }
                     )
-                    print(response)
                 #st.write(response)
                     
             except Exception as e:
